@@ -28,7 +28,7 @@ public class PatternRepeaterTest {
     @Test
     public void sortStringTest() {
         String[] integers = {"test", "chris", "abc"};
-        String[] expected = {"ab", "chris", "test"};
+        String[] expected = {"abc", "chris", "test"};
         String[] result = patternRepeater.sortStrings(integers);
 
         assertArrayEquals(expected, result);
